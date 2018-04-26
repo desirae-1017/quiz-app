@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="What year was the Big C built?" />
+
+        <RadioGroup
+            android:id="@+id/question1Answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/is1868"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1868" />
+
+            <RadioButton
+                android:id="@+id/is1905"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1905" />
+
+            <RadioButton
+                android:id="@+id/is1932"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1932" />
+
+            <RadioButton
+                android:id="@+id/is1965"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1965" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="When was the UC Berkeley founded?" />
+
+        <RadioGroup
+            android:id="@+id/question2Answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/input1886"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1886" />
+
+            <RadioButton
+                android:id="@+id/input1892"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1892" />
+
+            <RadioButton
+                android:id="@+id/input1868"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1868" />
+
+            <RadioButton
+                android:id="@+id/input1878"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1878" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="How many libraries are on campus?" />
+
+        <RadioGroup
+            android:id="@+id/question3Answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/is19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19" />
+
+            <RadioButton
+                android:id="@+id/is25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25" />
+
+            <RadioButton
+                android:id="@+id/is28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28" />
+
+            <RadioButton
+                android:id="@+id/is32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="How many majors are offered at UC Berkeley?" />
+
+        <RadioGroup
+            android:id="@+id/question4Answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/moreThan100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="more than 100" />
+
+            <RadioButton
+                android:id="@+id/moreThan120"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="more than 120" />
+
+            <RadioButton
+                android:id="@+id/moreThan150"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="more than 150" />
+
+            <RadioButton
+                android:id="@+id/moreThan180"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" more than 180" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Which is the oldest building on campus?" />
+
+        <RadioGroup
+            android:id="@+id/question5Answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/dwinelleHall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dwinelle Hall" />
+
+            <RadioButton
+                android:id="@+id/wheelerHall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wheeler Hall" />
+
+            <RadioButton
+                android:id="@+id/southHall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="South Hall" />
+
+            <RadioButton
+                android:id="@+id/evansHall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Evans Hall" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="How tall is the campanile?" />
+
+        <RadioGroup
+            android:id="@+id/question6Answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/ft235"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="235 ft" />
+
+            <RadioButton
+                android:id="@+id/ft278"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="278 ft" />
+
+            <RadioButton
+                android:id="@+id/ft300"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300 ft" />
+
+            <RadioButton
+                android:id="@+id/ft307"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="307 ft" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="How many bear statues are there on campus?" />
+
+        <RadioGroup
+            android:id="@+id/question7Answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/is20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20" />
+
+            <RadioButton
+                android:id="@+id/is23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23" />
+
+            <RadioButton
+                android:id="@+id/is27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="27" />
+
+            <RadioButton
+                android:id="@+id/is31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="31" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="How many chemical elements were discovered at UC Berkeley?" />
+
+        <RadioGroup
+            android:id="@+id/question8Answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/is16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16" />
+
+            <RadioButton
+                android:id="@+id/is18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18" />
+
+            <RadioButton
+                android:id="@+id/is26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="26" />
+
+            <RadioButton
+                android:id="@+id/is29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="29" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="What year did the Free Speech Movement start?" />
+
+        <RadioGroup
+            android:id="@+id/question9Answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/is1912"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1912" />
+
+            <RadioButton
+                android:id="@+id/is1946"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1946" />
+
+            <RadioButton
+                android:id="@+id/is1958"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1958" />
+
+            <RadioButton
+                android:id="@+id/is1964"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1964" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="What percent of freshman are first generation college students?" />
+
+        <RadioGroup
+            android:id="@+id/question10Answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/is8percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8%" />
+
+            <RadioButton
+                android:id="@+id/is12percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12%" />
+
+            <RadioButton
+                android:id="@+id/is18percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18%" />
+
+            <RadioButton
+                android:id="@+id/is20percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20%" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:onClick="submit"
+            android:text="submit" />
+
+    </LinearLayout>
+
+</ScrollView>
